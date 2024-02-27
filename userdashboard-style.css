@@ -1,0 +1,45 @@
+/* Navigation */
+.navbar-collapse .navbar-nav .nav-item a:hover {
+  color: #ff523b;
+}
+
+.cart-item {
+  margin-bottom: 1rem;
+}
+
+.nav-item {
+  padding: 0px 10px 0px 10px;
+}
+
+.coconut {
+  height: 456.68px !important;
+}
+/* Banner */
+.banner-image {
+  background: url("img/Groceryshopping-min.png") no-repeat center center / cover;
+  min-height: 600px;
+}
+
+.card {
+  box-shadow: 1px 1px 15px black;
+}
+
+
+/* Feature Products Card */
+.card-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Media queries for responsive adjustments */
+@media (max-width: 768px) {
+  .banner-image {
+    min-height: 300px; /* Adjust banner image for smaller devices */
+  }
+}
+
+.cartfooter{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
